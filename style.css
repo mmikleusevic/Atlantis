@@ -1,0 +1,57 @@
+html,body{margin:0; padding:0;}
+a{display:inline-block; color:#181818; text-decoration:none;}
+
+/* KONSTANTE */
+.tablica{display:table; width:100%;margin:auto;}
+.celija{display:table-cell;}
+
+/* ZAGLAVLJE */
+.zaglavlje{width:75%;margin:0 auto;}
+.zaglavlje .tablica{padding:0;}
+.zaglavlje .logo{width:100%;display:block;vertical-align: middle;text-align: center;}
+.zaglavlje .logo h1{font-family:'arial'; font-size:70px;color:blue;margin:0 0 20px; 0;padding:0;}
+.zaglavlje .logo span{display:block;font-family:'arial'; font-size:20px;color:blue;margin-top:15px;}
+.zaglavlje .nav{float:left;width:100%;display:table;vertical-align:middle;padding:0;margin: 0 auto;text-align:center;}
+.zaglavlje .nav ul{float:left;width:100%;text-align:center;display:block;text-align: center;margin:0 auto;text-align:center; padding:0 0 20px 0;list-style:none;border-bottom:1px solid black;}
+.zaglavlje .nav ul li{margin:0 auto;display:inline-block;padding:0 55px 0 55px;border-right:1px solid black}
+.zaglavlje .nav ul li:first-child{}
+.zaglavlje .nav ul li:last-child{border-right:none;}
+.zaglavlje .nav ul li a{font-family: 'arial';font-size:14px;color:black;}
+
+
+/* NASLOVNICA */
+article{width:75%;margin:0 auto;}
+.naslovnica{width:100%;margin:0 auto;}
+.naslovnica .tablica{width:100%;padding:0;margin-top:15px;text-align: middle;background-color:blue;}
+.naslovnica .tablica h2{margin:0;padding-left:20px;display:block;color:white;}
+
+.slike{width:100%;margin:0;}
+.slike .tablica{width:100%;margin:0 auto;margin-top:20px;padding:0;text-align:middle;}
+.slike .tablica nav{float:left;display:table;width:100%;padding:0;}
+.slike .tablica nav ul{display:table-cell;margin:auto auto;width:100%;padding:0;text-align:center;}
+.slike .tablica nav ul li{display:inline-block;vertical-align: top;width:420px;margin:0 20px;padding:0;}
+.slike .tablica nav ul li img{width:420px;margin:0 auto;}
+
+.slike .tablica h2{text-align:left;0 0 0;padding:0;font-family:'arial'; font-size:30px;color:grey;}
+.slike .tablica a{float:left;font-size:26px;color:black;margin-bottom:20px;vertical-align: bottom;}
+
+.slicice img{width:100%;height:150px;}
+
+
+/* FOOTER */
+.footer{width:75%;margin:0 auto;}
+.footer .tablica{width:100%;margin:0;padding:0;}
+.footer .tablica .celija1{display:block;width:70%;float:left;}
+.footer .tablica .celija1 p{font-size:18px;font-family:arial;}
+.footer .tablica .celija1 a{text-decoration: underline;color:blue;}
+
+.footer .tablica .celija2{display:block;width:30%;float:left;}
+.footer .tablica .celija2 .fa{display:inline-block;padding: 20px;margin:0 16px 10px 0;font-size: 30px;width: 50px;text-align: center;text-decoration: none;float:left;}
+.footer .tablica .celija2 .fa:nth-child(4){margin:0 0px 10px 0;}
+.footer .tablica .celija2 .fa:hover{opacity: 0.7;}
+.footer .tablica .celija2 .fa-facebook{background: #3B5998;color: white;}
+.footer .tablica .celija2 .fa-twitter{background: #55ACEE;color: white;}
+.footer .tablica .celija2 .fa-instagram{background: #125688;color: white;}
+.footer .tablica .celija2 .fa-google{background: #dd4b39;color: white;}
+
+.footer .tablica .celija2 img{display:block;height:100%;width:100px;float:right;}
